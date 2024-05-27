@@ -10,8 +10,8 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between">
 			<nav className=" w-full h-[60px] px-5 flex justify-start items-center">
-				<div className={`${danfofont.className} text-red-600 text-3xl`}>
-					Tanush&apos;s Blog
+				<div className={`${danfofont.className} text-red-600 text-2xl`}>
+					Tanush&apos;s Portfolio
 				</div>
 			</nav>
 		</main>
