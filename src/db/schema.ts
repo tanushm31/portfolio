@@ -41,8 +41,8 @@ export const projectTagsCorrelationTable = pgTable(
 	})
 );
 
-export type InsertUser = typeof projectsTable.$inferInsert;
-export type SelectUser = typeof projectsTable.$inferSelect;
+export type InsertProject = typeof projectsTable.$inferInsert;
+export type SelectProjects = typeof projectsTable.$inferSelect;
 
-export type InsertPost = typeof tags.$inferInsert;
-export type SelectPost = typeof tags.$inferSelect;
+export type InsertTags = typeof tags.$inferInsert;
+export type SelectTags = typeof tags.$inferSelect;
